@@ -92,13 +92,19 @@ width: 500px;
 
 
 /* Now main sectuion style */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
 
 /* about section style */
-.about{
-    padding: 130px;
+.about-container{
+    
     border-radius: 10px;
     background: #FFF8F3;
-    margin: 130px 0;
+    padding: 130px;
+    margin: 100px;
+  
 }
 .section-title{
     color: var(--Dark-01, #181818);
@@ -115,4 +121,14 @@ font-weight: 400;
 line-height: 30px; 
 
 }
+.about {
+   
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-between;
 
+}
+.about-info{
+    text-align: center;
+}
